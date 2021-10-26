@@ -1,0 +1,27 @@
+input_ulang_data = "y"
+while input_ulang_data == "y":
+    print("==========>>>Data Mahasiswa<<<==========") 
+    print(" ")
+    nama=str(input("Tulis Nama Lengkap Mahasiswa : ")) 
+    umur=int(input("Tulis Umur Mahasiswa Saat ini (Bentuk Angka) : "))
+    fakultas=str(input("Tulis Asal Fakultas : "))
+    nim=int(input("Tulis Nim Mahawsiswa (Contoh:210606060) : "))
+    ipk=float(input("Tulis IPK Mahasiswa (Contoh: 3.0) : "))
+
+    Masukan=[] 
+    Masukan.append(nama)
+    Masukan.append(umur)
+    Masukan.append(fakultas)
+    Masukan.append(nim)
+    Masukan.append(ipk)
+    print(" ")
+    print("=======>>>Data Mahasiswa<<<=======") 
+    print(" ")
+    print(f"Nama) :          {Masukan[0]} ")
+    print(f"Umur) :          {Masukan[1]} Tahun ")
+    print(f"Fakultas) :      {Masukan[2]} ")
+    print(f"Nim) :           {Masukan[3]} ")
+    print(f"IPK) :           {Masukan[4]} ")
+    print(" ")
+    input_ulang_data = str(input("Isi Lagi? (y/t) : "))
+print("Terima Kasih Sudah Mengisi Data")
